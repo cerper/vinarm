@@ -1,4 +1,4 @@
 const AboutSection = () => {
-  return <div>AboutSection</div>
+  return <section className="bg-vinarmGreen h-[100vh]">AboutSection</section>
 }
 export default AboutSection

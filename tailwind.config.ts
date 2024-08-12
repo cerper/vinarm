@@ -21,7 +21,7 @@ const config = {
       montserrat: 'var(--font-montserrat)',
     },
     backgroundImage: {
-      hero: 'url(/Vinarm/foto1.png)',
+      hero: 'url(/Vinarm/hero.png)',
       combo: 'url(/Vinarm/logoreal.png)',
     },
     extend: {
