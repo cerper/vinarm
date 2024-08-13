@@ -1,13 +1,13 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import logo from '../../public/Vinarm/logoreal.png'
+import logo from '../../public/Vinarm/logo2.png'
 import MobileNav from './MobileNav'
 import Navbar from './Navbar'
 
 const Header = () => {
   return (
     <div>
-      <header className="fixed top-0 z-50 h-[130px] w-full max-w-[1920px] bg-vinarmBlack text-vinarmYellow transition-all lg:h-[122px]">
+      <header className="fixed top-0 z-50 h-[128px] w-full max-w-[1920px] bg-vinarmBlack text-vinarmYellow transition-all lg:h-[112px]">
         <div className="container mx-auto h-full flex flex-col justify-between items-center lg:flex-row ">
           <Link href="/">
             <Image
