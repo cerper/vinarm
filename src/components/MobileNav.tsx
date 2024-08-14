@@ -5,7 +5,7 @@ const linksData = [
   {
     name: 'quienesSomos?',
     target: 'quienes somos?',
-    offset: 80,
+    offset: -140,
   },
   {
     name: 'menu',
