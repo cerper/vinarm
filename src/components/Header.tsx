@@ -7,7 +7,7 @@ import Navbar from './Navbar'
 const Header = () => {
   return (
     <div>
-      <header className="fixed top-0 z-50 h-[148px] w-full max-w-[1920px] bg-vinarmGreen text-vinarmYellow transition-all lg:h-[118px]">
+      <header className="fixed top-0 z-50 h-[140px] w-full max-w-[1920px] bg-vinarmGreen text-vinarmYellow transition-all lg:h-[118px]">
         <div className="container mx-auto  h-full flex flex-col justify-between items-center lg:flex-row ">
           <Link href="/" className="mb-4">
             <Image
