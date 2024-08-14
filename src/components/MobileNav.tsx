@@ -3,11 +3,6 @@ import { Link as ScrollLink } from 'react-scroll'
 
 const linksData = [
   {
-    name: 'home',
-    target: 'home',
-    offset: 100,
-  },
-  {
     name: 'quienesSomos?',
     target: 'quienes somos?',
     offset: 80,
