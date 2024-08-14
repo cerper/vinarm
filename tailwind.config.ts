@@ -27,7 +27,7 @@ const config = {
     extend: {
       colors: {
         vinarmYellow: '#ffca83',
-        vinarmGreen: '#14342b',
+        vinarmGreen: '#113229',
         vinarmBeige: '#fffbde',
         vinarmBlack: '#1d1d1b',
         border: 'hsl(var(--border))',

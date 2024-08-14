@@ -1,4 +1,8 @@
 const MenuSection = () => {
-  return <div>MenuSection</div>
+  return (
+    <div className="" id="menu">
+      MenuSection
+    </div>
+  )
 }
 export default MenuSection
