@@ -10,7 +10,7 @@ const linksData = [
   {
     name: 'menu',
     target: 'menu',
-    offset: 60,
+    offset: -110,
   },
   {
     name: 'testimonios',
