@@ -35,7 +35,7 @@ const MobileNav = ({ containerStyles }: { containerStyles: string }) => {
             to={link.target}
             spy
             smooth
-            className=" cursor-pointer transition-all hover:text-vinarmBeige"
+            className=" cursor-pointer transition-all"
           >
             {link.name}
           </ScrollLink>

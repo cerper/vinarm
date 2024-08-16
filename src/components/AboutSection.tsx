@@ -39,13 +39,13 @@ const AboutSection = () => {
             <Image
               src={foto}
               alt="local de vinarm"
-              height={400}
-              width={400}
-              className="w-[100vh] lg:mx-8 lg:w-[80vh] rounded-lg"
+              height={300}
+              width={380}
+              className="w-[100vh] lg:mx-8 lg:w-[80vh] lg:h-[400px] rounded-lg "
             />
           </div>
           <div className="col-span-1">
-            <div className="flex justify-center h-[250px] w-[300px] md:w-[550px] md:h-[450px] mx-16 items-center text-vinarmBeige">
+            <div className="flex justify-center h-[250px] w-[250px] md:w-[550px] md:h-[450px] mx-16 items-center text-vinarmBeige">
               <p className="text-center font-montserrat font-extrabold ">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Eveniet vel perferendis iure consequatur rem vero incidunt vitae
