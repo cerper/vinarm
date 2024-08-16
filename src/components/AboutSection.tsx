@@ -36,15 +36,15 @@ const AboutSection = () => {
             )
           })}
         </div>
-        <div className="flex flex-col items-center justify-center lg:grid lg:grid-cols-2 lg:place-items-start mt-16">
+        <div className="flex flex-col w-full items-center justify-center lg:grid lg:grid-cols-2 lg:place-items-start mt-16 mr-4">
           <Image
             src={foto}
             alt="local de vinarm"
             height={300}
-            width={380}
-            className="w-full lg:mx-8 lg:w-[80vh] lg:h-[400px] rounded-lg "
+            width={340}
+            className="w-full lg:mx-8 lg:w-[80vh] lg:h-[400px]  "
           />
-          <div className="flex justify-center h-[250px] w-[250px] md:w-[550px] md:h-[450px]  items-center text-vinarmBeige">
+          <div className="flex justify-center h-[250px] w-[250px] md:w-[500px] md:h-[450px]  items-center text-vinarmBeige">
             <p className="text-justify font-montserrat font-extrabold ">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet
               vel perferendis iure consequatur rem vero incidunt vitae enim,
