@@ -29,7 +29,7 @@ const AboutSection = () => {
                 className="flex flex-col justify-center items-center"
               >
                 <div className="text-center text-6xl">{data.icon}</div>
-                <p className="text-center text-lg">{data.text}</p>
+                <p className="text-center w-[350px] text-lg">{data.text}</p>
               </div>
             )
           })}
@@ -40,8 +40,8 @@ const AboutSection = () => {
               src={foto}
               alt="local de vinarm"
               height={300}
-              width={380}
-              className="w-[100vh] lg:mx-8 lg:w-[80vh] lg:h-[400px] rounded-lg "
+              width={410}
+              className="w-[50vh] lg:mx-8 lg:w-[80vh] lg:h-[400px] rounded-lg "
             />
           </div>
           <div className="col-span-1">
