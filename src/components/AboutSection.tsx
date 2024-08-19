@@ -30,7 +30,7 @@ const AboutSection = () => {
             className="w-full lg:mx-8 lg:w-[80vh] rounded-xl lg:h-[400px]  "
           />
           <div className="flex justify-center h-[250px] w-[350px] md:w-[600px] md:h-[400px]  items-center text-vinarmBeige">
-            <p className="text-justify font-montserrat font-extrabold ">
+            <p className="text-center font-montserrat font-extrabold ">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet
               vel perferendis iure consequatur rem vero incidunt vitae enim,
               fugit unde aspernatur error dolorum adipisci in assumenda autem
