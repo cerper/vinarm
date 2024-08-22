@@ -50,7 +50,7 @@ const MenuSection = () => {
                   width={400}
                   className="rounded-full mt-10 lg:mt-4"
                 />
-                <h5 className="text-center text-vinarmBeige font-montserrat font-extrabold">
+                <h5 className="text-center mt-2 text-vinarmBeige font-montserrat font-extrabold">
                   {menu.name}
                 </h5>
                 <p className="text-center mx-4 text-vinarmBeige font-montserrat font-extrabold">
