@@ -9,25 +9,28 @@ const menuData = [
     description: 'hamburguesa con papas grandes y refresco',
     precio: 10,
     src: combo,
+    link: '/',
   },
   {
     name: 'Combo 2',
     description: 'hamburguesa con papas grandes y refresco',
     precio: 11,
     src: combo,
-    link: '',
+    link: '/',
   },
   {
     name: 'Combo 3',
     description: 'hamburguesa con papas grandes y refresco',
     precio: 12,
     src: combo,
+    link: '/',
   },
   {
     name: 'Combo 4',
     description: 'hamburguesa con papas grandes y refresco',
     precio: 15,
     src: combo,
+    link: '/',
   },
 ]
 
@@ -60,12 +63,12 @@ const MenuSection = () => {
                   {menu.precio}$
                 </div>
                 <Link
-                  href={`https://wa.link/pa16nb `}
+                  href={menu.link}
                   className="flex justify-center items-center mt-2"
                 >
                   <Button
                     variant={'default'}
-                    className="bg-vinarmYellow text-center font-montserrat font-bold text-vinarmGreen hover:bg-vinarmBeige"
+                    className="bg-vinarmYellow text-center font-montserrat font-bold text-vinarmBlack hover:bg-vinarmBeige"
                   >
                     Comprar {menu.name}
                   </Button>

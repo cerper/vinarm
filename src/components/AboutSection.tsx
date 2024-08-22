@@ -17,7 +17,7 @@ const aboutData = [
 const AboutSection = () => {
   return (
     <section className="bg-vinarmGreen " id="quienes somos?">
-      <div className="pt-24 pb-8 ">
+      <div className="pt-16 pb-8 ">
         <h5 className="text-vinarmYellow  text-5xl font-montserrat font-extrabold text-center">
           Quienes Somos?
         </h5>

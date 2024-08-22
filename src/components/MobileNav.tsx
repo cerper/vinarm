@@ -13,7 +13,7 @@ const linksData = [
     offset: -110,
   },
   {
-    name: 'testimonios',
+    name: 'referencias',
     target: 'testimonios',
     offset: -80,
   },
