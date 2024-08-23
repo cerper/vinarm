@@ -45,7 +45,7 @@ const MenuSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-24">
           {menuData.map((menu, index) => {
             return (
-              <div key={index}>
+              <section key={index}>
                 <Image
                   src={menu.src}
                   alt="foto del combo "
@@ -73,7 +73,7 @@ const MenuSection = () => {
                     Comprar {menu.name}
                   </Button>
                 </Link>
-              </div>
+              </section>
             )
           })}
         </div>
